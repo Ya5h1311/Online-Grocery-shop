@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Grocery Shopping Website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <section class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> grocery </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Review</a>
+            <a href="#blogs">Blogs</a>
+
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img decoding="async" src="img/cart-img-1.png">
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">₹35.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img decoding="async" src="img/cart-img-2.png">
+                <div class="content">
+                    <h3>onion</h3>
+                    <span class="price">₹15.00/-</span>
+                    <span class="quantity">qty : 1kg</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img decoding="async" src="img/cart-img-3.png">
+                <div class="content">
+                    <h3>chicken</h3>
+                    <span class="price">₹99.00/-</span>
+                    <span class="quantity">qty : 1kg</span>
+                </div>
+            </div>
+
+            <div class="total"> total : ₹149.99/-</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <p>forget password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create how</a></p>
+            <input type="submit" value="login now" class="btn" name="">
+
+        </form>
+    </section>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh and <span>organic</span> products for your</h3>
+            <p>Grocery Items . . means Farhanfood and foodstuffs, green groceries, beverages and household goods usually
+                prepackaged...</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h1 class="heading"> our <span>features</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img decoding="async" src="img/feature-img-1.png">
+                <h3>fresh and organic</h3>
+                <p>Grocery Items . . means Farhanfood and foodstuffs, green groceries, beverages and household goods
+                    usually prepackaged...</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img decoding="async" src="img/feature-img-2.png">
+                <h3>free delivery</h3>
+                <p>Grocery Items . . means Farhanfood and foodstuffs, green groceries, beverages and household goods
+                    usually prepackaged...</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img decoding="async" src="img/feature-img-3.png">
+                <h3>easy payment</h3>
+                <p>Grocery Items . . means Farhanfood and foodstuffs, green groceries, beverages and household goods
+                    usually prepackaged...</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> our <span>products</span> </h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img decoding="async" src="img/product-1.png" alt="">
+                    <h3>fresh orange</h3>
+                    <div class="price"> ₹34.00/kg </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img decoding="async" src="img/product-2.png" alt="">
+                    <h3>fresh onion</h3>
+                    <div class="price"> ₹15.00/kg </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img decoding="async" src="img/product-3.png" alt="">
+                    <h3>fresh meat</h3>
+                    <div class="price"> ₹99.00/kg </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img decoding="async" src="img/product-4.png" alt="">
+                    <h3>fresh cabbage</h3>
+                    <div class="price"> ₹21.00/kg </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img decoding="async" src="img/product-5.png" alt="">
+                    <h3>fresh potato</h3>
+                    <div class="price"> ₹15.00/kg </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img decoding="async" src="img/product-6.png" alt="">
+                    <h3>fresh avocado</h3>
+                    <div class="price"> ₹36.00/kg </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img decoding="async" src="img/product-7.png" alt="">
+                    <h3>fresh carrot</h3>
+                    <div class="price"> 24.00/kg </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img decoding="async" src="img/product-8.png" alt="">
+                    <h3>green lemon</h3>
+                    <div class="price"> ₹36.00/kg </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories" id="categories">
+        <h1 class="heading"> product <span>categories</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img decoding="async" src="img/cat-1.png">
+                <h3>vegitables</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img decoding="async" src="img/cat-2.png">
+                <h3>fresh fruits</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img decoding="async" src="img/cat-3.png">
+                <h3>dairy product</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img decoding="async" src="img/cat-4.png">
+                <h3>fresh meat</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="review" id="review">
+        <h1 class="heading"> customer's <span>review</span></h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img decoding="async" src="img/vikesh_zade.png">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing farhan, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. </p>
+                    <h3>Vikesh Zade</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img decoding="async" src="img/swapnil_deshmukh.png">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing farhan, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. </p>
+                    <h3>Swapnil Deshmukh</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img decoding="async" src="img/sanskar_bachchuwar.jpeg">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing farhan, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. </p>
+                    <h3>Sanskar Bachchuwar</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img decoding="async" src="img/sanskar_randhive.png">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing farhan, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. </p>
+                    <h3>Sanskar Randhive</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img decoding="async" src="img/pratik_waghmare.png">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing farhan, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. </p>
+                    <h3>Pratik Waghmare</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img decoding="async" src="img/vajal_bhagat.png">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing farhan, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. </p>
+                    <h3>Vajal Bhagat</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="blogs" id="blogs">
+        <h1 class="heading"> our <span>blogs</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img decoding="async" src="img/blog-1.jpg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user</a>
+                        <a href="#"> <i class="fas fa-calender"></i> 18th Octo 2023</a>
+                    </div>
+                    <h3>fresh and organic vegitables and fruits</h3>
+                    <p>Grocery Items . . means Farhanfood and foodstuffs, green groceries, beverages and household goods
+                        usually prepackaged...</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img decoding="async" src="img/blog-2.jpg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user</a>
+                        <a href="#"> <i class="fas fa-calender"></i> 18th Octo 2023</a>
+                    </div>
+                    <h3>fresh and organic vegitables and fruits</h3>
+                    <p>Grocery Items . . means Farhanfood and foodstuffs, green groceries, beverages and household goods
+                        usually prepackaged...</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img decoding="async" src="img/blog-3.jpg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user</a>
+                        <a href="#"> <i class="fas fa-calender"></i> 18th Octo 2023</a>
+                    </div>
+                    <h3>fresh and organic vegitables and fruits</h3>
+                    <p>Grocery Items . . means Farhanfood and foodstuffs, green groceries, beverages and household goods
+                        usually prepackaged...</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>grocery <i class="fas fa-shopping-basket"></i></h3>
+                <p>Grocery Items . . means Farhanfood and foodstuffs, green groceries, beverages and household goods
+                    usually prepackaged...</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i> +91 9423224076 </a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i> yashbhoyar1311@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> Umred, india - 441203</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> home</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> features</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> products</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> categories</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> review</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest update</p>
+                <input type="email" placeholder="enter your emai" class="email" name="">
+                <input type="submit" value="subscribe" class="btn" name="">
+                <img decoding="async" src="img/payment.png" class="payment-img">
+            </div>
+        </div>
+        <div class="credit"> created by <span>Yash Bhoyar</span> || all right reserved </div>
+    </section>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer data-deferred="1"></script>
+    <script type="text/javascript" src="main.js" defer data-deferred="1"></script>
+    <scrip src="main.js"></scrip>
+</body>
+
+</html>
